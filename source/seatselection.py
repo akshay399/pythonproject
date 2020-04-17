@@ -99,6 +99,7 @@ def onClickConfirmButton(mainwindow,allSeats,email,username,movie_name):
 
         text='Dear '+username+',\n'+'Your one time receipt-code : \n'+receiptNum+'\nPlease do not share it with anyone'
         mailSender(email,text,'BOOKING SUCCESSFULL')
+        messagebox.showinfo('Warning','You Selected nothing !!')
 
 
 
