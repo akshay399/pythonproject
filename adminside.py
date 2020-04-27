@@ -1,5 +1,8 @@
-import sys
-sys.path.append('/home/litshit/booking_management_system/source')
+# import sys
+# sys.path.append('/home/litshit/booking_management_system/source')
+
+import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), "source"))
 from tkinter import *
 #from functools import partial
 from tkinter import *
